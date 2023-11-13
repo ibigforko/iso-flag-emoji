@@ -1,6 +1,6 @@
 {
     "name": "iso-flag-emoji",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "Generate country flag emoji from ISO 3166-1 alpha-2 code",
     "homepage": "https://github.com/ibigforko/iso-flag-emoji#readme",
     "main": "dist/index.js",
