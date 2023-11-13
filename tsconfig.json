@@ -1,0 +1,31 @@
+{
+    "compilerOptions": {
+        "moduleResolution": "node",
+        "target": "es6",
+        "module": "es6",
+        "lib": [
+            "es2017", 
+            "dom"
+        ],
+        "strict": true,
+        "noImplicitAny": false,
+        "sourceMap": true,
+        "allowJs": false,
+        "allowSyntheticDefaultImports": true,
+        "typeRoots": [
+            "./src", "node_modules/@types",
+        ],
+        "baseUrl": "src",
+        "paths": {
+            "*": ["types/*"]
+        },
+        "declaration": true,
+        "declarationDir": "./dist/types"
+    },
+    "include": [
+        "src"
+    ],
+    "exclude": [
+        "node_modules"
+    ]
+}
